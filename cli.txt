@@ -1,0 +1,2 @@
+aws ec2 run-instances --image-id <ami-id> --count 1 --instance-type t2.micro 
+                      --key-name <Keypair-name> --security-group-ids--subnet-id <SubnetId>
